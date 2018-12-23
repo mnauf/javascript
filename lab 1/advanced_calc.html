@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script>
+            //This program calculates the operation between two numbers
+            function Sum() {
+                var inputnumber1,inputnumber2,sum; //Declaration
+                inputnumber1=parseInt(mainform.txtInput01.value); //Initialization or Assignment
+                inputnumber2=parseInt(mainform.txtInput02.value);
+                sum = inputnumber1 + inputnumber2;
+                //var inputData=mainform.txtInput.value; //declaration +assignment 
+                alert("The sum is: " + sum);
+            }
+            function Sub() {
+                var inputnumber1,inputnumber2,sub; //Declaration
+                inputnumber1=parseInt(mainform.txtInput01.value); //Initialization or Assignment
+                inputnumber2=parseInt(mainform.txtInput02.value);
+                sub = inputnumber1 - inputnumber2;
+                //var inputData=mainform.txtInput.value; //declaration +assignment 
+                alert("The subtraction is: " + sub);
+            }
+            function Multiply() {
+                var inputnumber1,inputnumber2,mul; //Declaration
+                inputnumber1=parseInt(mainform.txtInput01.value); //Initialization or Assignment
+                inputnumber2=parseInt(mainform.txtInput02.value);
+                mul = inputnumber1 * inputnumber2;
+                //var inputData=mainform.txtInput.value; //declaration +assignment 
+                alert("The multiplication is: " + mul);
+            }
+            function Divide() {
+                var inputnumber1,inputnumber2,divide; //Declaration
+                inputnumber1=parseInt(mainform.txtInput01.value); //Initialization or Assignment
+                inputnumber2=parseInt(mainform.txtInput02.value);
+                divide = inputnumber1 / inputnumber2;
+                //var inputData=mainform.txtInput.value; //declaration +assignment 
+                alert("The multiplication is: " + divide);
+            }
+        </script>
+
+    </head>
+    <body>
+        <form name="mainform">
+            <label> Input 1: </label>
+            <input type="text" name="txtInput01" placeholder="Enter your number 1"/>
+            <label> Input 2: </label>
+            <input type="text" name="txtInput02" placeholder="Enter your number 2"/>
+            <input type="submit" value="Sum" onclick="Sum()"/>
+            <input type="submit" value="Sub" onclick="Sub()"/>
+            <input type="submit" value="Multiply" onclick="Multiply()"/>
+            <input type="submit" value="Divide" onclick="Divide()"/>
+
+        </form>
+
+    </body>
+</html>

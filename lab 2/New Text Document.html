@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+            //modulo operator
+            var i = 10;
+            alert(i % 3);
+            
+            var i = 23;
+            i++;                            // Returns 23; possess 24
+            i;                              // Returns 24
+            i--;                            // Returns 24; possess 23
+            ++i;                            // Returns n possess 24
+            alert(i++);                     // Returns 24; possess 25
+            alert(++i);                     // Returns n possess 26
+            alert(2+3-8+16*6/3+8);          // 37  (following BODMAS)
+            alert(1<2<3);                   // Dry run ==> (1<2) = True; (True=1), (1<3) output: True
+            alert(3>2>1);                   // (3>2) = True ==> 1, (1>1) output: False
+            
+            var i = 10;
+            alert(i - "2" + "4" * "3");     //Returns 20
+        
+            var i = 10;
+            alert(i + "2" + "4" * "3");     //Returns 10212
+            var i = 10;
+            alert(i * "2" + "4" * "3");     //Returns 32
+            var i = 10;
+            alert(i + "2" + "4" * "3");     //Returns 10212
+            alert(1024.8.toString(16));     //Returns 400.ccccccccccc
+            // Task: Roots of Quadratic Equation
+            var a = prompt("Enter a value for a");
+            var b = prompt("Enter a value for b");
+            var c = prompt("Enter a value for c");
+            x = (-b + Math.sqrt(Math.pow(b,2) -4*a*c)) / 2*a;
+            y = (-b - Math.sqrt(Math.pow(b,2) -4*a*c)) / 2*a;
+            alert("Roots of Quadratic Equation are:     " + x+"     "+y);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

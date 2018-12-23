@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        // activity 1
+        // var number = 10;
+        // if (number % 2==0) {
+        //     alert("Even");
+        // }
+        // else{
+        //     alert("ODD");
+        // }
+
+        // activity 2
+        // var daysOfWeek;
+        // daysOfWeek=prompt("What day is it: ");
+        // if(daysOfWeek == 1)
+        // {
+        //     alert("Monday");
+        // }
+        // else if(daysOfWeek==2)
+        // {
+        //     alert("Tuesday");
+        // }
+        // else if(daysOfWeek==3)
+        // {
+        //     alert("Wednesday");
+        // }
+        // else if(daysOfWeek==4)
+        // {
+        //     alert("Thursday");
+        // }
+        // else if(daysOfWeek==5)
+        // {
+        //     alert("Friday");
+        // }
+        // else if(daysOfWeek==6)
+        // {
+        //     alert("Saturday");
+        // }
+        // else if(daysOfWeek==7)
+        // {
+        //     alert("Sunday");
+        // }
+        // else{
+        //     alert("Invalid")
+        // }
+
+        // activity 3
+        // var timeleft;
+        // timeleft=prompt("How much days left are there in exams?: ");
+        // var subject;
+        // subject=prompt("Kis subject ka paper hai?");
+        // var teacher;
+        // teacher=prompt("Teacher naram dil hain?: ");
+        // if (timeleft==3 && ((teacher=="soft" || teacher=="hard") && (subject=="science" || subject =="art")))
+        // {
+        //     alert("Chill");
+            
+        // }
+        // else if (timeleft==2)
+        // {
+        //     if (subject=="science" && teacher =="soft")
+        //     {
+        //         alert("Study and chill");
+        //     }
+        //     else if (subject=="science" && teacher =="hard")
+        //     {
+        //         alert("Study and no Chill");
+        //     }
+        //     else if ((subject=="art" && teacher =="soft"))
+        //     {
+        //         alert("Don't study");
+        //     }
+        //     else ((subject=="art" && teacher =="hard"))
+        //     {
+        //         alert("Study and chill");
+        //     }
+        // }
+        // else
+        // {
+        //     if (subject=="science" && teacher =="soft")
+        //     {
+        //         alert("Study and no chill");
+        //     }
+        //     else if (subject=="science" && teacher =="hard")
+        //     {
+        //         alert("Study and no Chill");
+        //     }
+        //     else if ((subject=="art" && teacher =="soft"))
+        //     {
+        //         alert("Don't study");
+        //     }
+        //     else ((subject=="art" && teacher =="hard"))
+        //     {
+        //         alert("Study and chill");
+        //     }
+        // }
+
+        // activity 4
+        var subject1,subject2,subject3,percentage,gained,total=300;
+        subject1=prompt("Enter subject 1 marks out of 100: ");
+        subject2=prompt("Enter subject 2 marks out of 100: ");
+        subject3=prompt("Enter subject 3 marks out of 100: ");
+        gained=parseInt(subject1)+parseInt(subject2)+parseInt(subject3);
+        percentage=(gained/total)*100;
+        alert("Percentage is "+ percentage);
+        if (percentage>=90)
+        {
+            alert("Grade A+");
+        }
+        else if (percentage>=80)
+        {
+            alert("Grade A");
+        }
+        else if(percentage>=70)
+        {
+            alert("pass");
+        }
+        else{
+            alert("Fail");
+        }
+    </script>
+    
+</body>
+</html>
